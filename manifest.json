@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+ 
+    "name": "DoIt metrics Plugin",
+    "description": "Generate graph maildays metric for doit.im service",
+    "version": "1.0",
+ 
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html",
+        "default_title": "DoIt metrics"
+    },
+
+    "permissions": [
+        "activeTab",
+        "https://*.doit.im/"
+    ]
+
+}
